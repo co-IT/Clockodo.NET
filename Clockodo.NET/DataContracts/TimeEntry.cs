@@ -14,18 +14,13 @@ public class TimeEntry
         ServicesName = rawTimeEntry.ServiceName;
     }
 
-    public TimeEntry()
-    {
-        
-    }
+    public DateTime Start { get; }
+    public DateTime End { get; }
+    public int Duration { get; }
 
-    public DateTime Start { get; set; }
-    public DateTime End { get; set; }
-    public int Duration { get; set; }
-
-    public string CustomerName { get; set; }
-    public string ProjectName { get; set; }
-    public string EmployeeName { get; set; }
-    public decimal Revenue { get; set; }
-    public string ServicesName { get; set; }
+    public string CustomerName { get; }
+    public string ProjectName { get; }
+    public string EmployeeName { get; }
+    public decimal Revenue { get; }
+    public string ServicesName { get; }
 }

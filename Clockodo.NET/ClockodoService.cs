@@ -1,13 +1,14 @@
 ﻿using System.Collections.Immutable;
 using Clockodo.NET.DataContracts;
 using Clockodo.NET.Filter;
+using Newtonsoft.Json;
 
 namespace Clockodo.NET;
 
 public class ClockodoService : ITimeEntryService
 {
-    private readonly JsonSerializerSettings _jsonSettings;
     private readonly HttpClient _client;
+    private readonly JsonSerializerSettings _jsonSettings;
 
     public ClockodoService(Credentials credentials)
     {

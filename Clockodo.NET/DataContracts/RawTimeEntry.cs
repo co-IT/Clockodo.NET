@@ -1,4 +1,6 @@
-﻿namespace Clockodo.NET.DataContracts;
+﻿using Newtonsoft.Json;
+
+namespace Clockodo.NET.DataContracts;
 
 public class RawTimeEntry
 {
