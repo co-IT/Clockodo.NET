@@ -1,3 +1,5 @@
+## This is archived as of 12.08.2024. You can find the newest version [here](https://github.com/co-IT/toolkit/tree/main/src/coIT.Libraries.Clockodo)
+
 # Clockodo.NET
 .NET library for the time and attendance tracking software Clockodo
 
